@@ -128,9 +128,9 @@ flowchart LR
 1. Copy `agent-dev/`, `AGENTS.md`, and `CLAUDE.md` into the project repo root. From the root:
    ```bash
    # Mac
-   curl -L https://github.com/OWNER/REPO/tarball | tar -xz --strip-components=1 "*/agent-dev" "*/AGENTS.md" "*/CLAUDE.md"
+   curl -L https://github.com/CarterRudolph2005/agent-framework/tarball | tar -xz --strip-components=1 "*/agent-dev" "*/AGENTS.md" "*/CLAUDE.md"
    # Linux / Git Bash on Windows (GNU tar needs --wildcards)
-   curl -L https://github.com/OWNER/REPO/tarball | tar -xz --wildcards --strip-components=1 "*/agent-dev" "*/AGENTS.md" "*/CLAUDE.md"
+   curl -L https://github.com/CarterRudolph2005/agent-framework/tarball | tar -xz --wildcards --strip-components=1 "*/agent-dev" "*/AGENTS.md" "*/CLAUDE.md"
    ```
    Naming the three paths keeps the framework's own README from overwriting the project's.
 2. Fill in the four **Fundamentals** in `agent-dev/project-context.md` together (~5 min). Agents fill in the rest as features land.
